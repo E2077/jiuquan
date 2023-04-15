@@ -12,7 +12,7 @@ const和let的区别:
 进阶内容: const 对象本身不可更改,但是对象里面的属性可以改,与指针有关
 */
 
-const $ = new Env('发帖 低抛高吸') //青龙拉库会把 new Env('qwerty') 里面的名字qwerty作为定时任务名
+const $ = new Env('1发帖 低抛高吸') //青龙拉库会把 new Env('qwerty') 里面的名字qwerty作为定时任务名
 
 
 
