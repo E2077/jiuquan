@@ -1,6 +1,6 @@
 /*
 下面一行是建议定时,青龙拉库会自动读取
-cron 21 11 * * * huifu2.js
+cron 21 11,12,13,14 * * * huifu2.js
 */
 
 class Env {
