@@ -2,7 +2,7 @@
 
 以下都以青龙或nodejs环境为准
 下面一行是建议定时,青龙拉库会自动读取
-cron 33 9 * * * dianzan1.js
+cron 36 9,12 * * * dianzan1.js
 */
 
 /*
