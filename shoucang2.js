@@ -34,8 +34,8 @@ const options = {
     'Connection': 'keep-alive',
     'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
     'Host': 'api.jiucaishuo.com',
-    'User-Agent': 'JiuQuan/227 (jiuquaner.app.chen; build:227; iOS 16.2.0) Alamofire/227',
-    'Accept-Language': 'zh-Hans-CN;q=1.0'
+    'User-Agent': 'JiuQuan/229 (jiuquaner.app.chen; build:229; iOS 12.5.5) Alamofire/229',
+    'Accept-Language': 'zh-Hans-CN;q=1.0, en-CN;q=0.9, zh-Hant-HK;q=0.8, zh-Hant-CN;q=0.7'
 
   }
 };
@@ -60,7 +60,7 @@ function sendRequest() {
     console.error(error);
   });
 
-  const body = 'abiokytke=cd&act_time=1679807545939&authtoken=P6WQLI4aOvxZpXmEQ6%2Bu9EETbzroVPOG&bd24y6421f=1c&bd4uy742=7&bgd7h8tyu54=07&bgiuytkw=10&bioduytlw=5&bvytikwqjk=07&fjlkatj=18d&ghtoiutkmlg=918&h13ey474=699&h67456y=6f2&hy5641d321t=c7&ibvytiqjek=f1&id=274860&iogojti=c&is_app=1&jnhf8u5231=10&kf54ge7=9&lksytkjh=f2e3&mobile_brand=LGE&n3bf4uj7y7=2&nbf4uj7y432=cd&nd354uy4752=9&ngd4uy551=f2&ngd4yut78=18&nkjhrew=7&quikgdky=d6&sbnoywr=61&tbvdiuytk=6&tiklsktr4=4&tirgkjfs=54&type=app_android&u54rg5d=18&uid=519244&version=2.3.5&y654b5fs3tr=9&yi854tew=69&yt447e13f=1';
+  const body = 'abiokytke=28&act_time=1681558093550&authtoken=P6WQLI4aOvxZpXmEQ6%2Bu9EETbzroVPOG&bd24y6421f=7e&bd4uy742=3&bgd7h8tyu54=13&bgiuytkw=ef&bioduytlw=4&bvytikwqjk=13&fjlkatj=5be&ghtoiutkmlg=9dc&h13ey474=3f1&h67456y=b6b&hy5641d321t=e3&ibvytiqjek=2a&id=297026&iogojti=e&is_app=1&jnhf8u5231=ef&kf54ge7=1&lksytkjh=6bd2&n3bf4uj7y7=b&nbf4uj7y432=28&nd354uy4752=f&ngd4uy551=6b&ngd4yut78=dc&nkjhrew=3&quikgdky=4a&sbnoywr=e7&tbvdiuytk=b&tiklsktr4=9&tirgkjfs=79&type=app_ios&u54rg5d=5b&version=2.3.6&y654b5fs3tr=9&yi854tew=3f&yt447e13f=b';
   req.write(body);
 
   req.end();
