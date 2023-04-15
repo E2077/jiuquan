@@ -35,8 +35,8 @@ const options = {
     'Connection': 'keep-alive',
     'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
     'Host': 'api.jiucaishuo.com',
-    'User-Agent': 'JiuQuan/227 (jiuquaner.app.chen; build:227; iOS 16.2.0) Alamofire/227',
-    'Accept-Language': 'zh-Hans-CN;q=1.0'
+    'User-Agent': 'JiuQuan/229 (jiuquaner.app.chen; build:229; iOS 12.5.5) Alamofire/229',
+    'Accept-Language': 'zh-Hans-CN;q=1.0, en-CN;q=0.9, zh-Hant-HK;q=0.8, zh-Hant-CN;q=0.7'
   }
 };
 
@@ -60,7 +60,7 @@ function sendRequest() {
     console.error(error);
   });
 
-  const body = 'abiokytke=0f&act_time=1679805340040&authtoken=%2BWQC415cWnnFJ1O9JJysmVAu9C4QQsp2&bd24y6421f=bf&bd4uy742=7&bgd7h8tyu54=b5&bgiuytkw=bd&bioduytlw=5&bvytikwqjk=b5&fjlkatj=a87&ghtoiutkmlg=a1c&h13ey474=d4f&h67456y=001&hy5641d321t=f7&ibvytiqjek=da&iogojti=f&is_app=1&jnhf8u5231=bd&kf54ge7=f&lksytkjh=0148&n3bf4uj7y7=1&nbf4uj7y432=0f&nd354uy4752=4&ngd4uy551=01&ngd4yut78=1c&nkjhrew=7&quikgdky=d7&sbnoywr=1b&tbvdiuytk=0&text_id=277117&tiklsktr4=f&tirgkjfs=3f&type=app_ios&u54rg5d=a8&version=2.3.3&y654b5fs3tr=a&yi854tew=d4&yt447e13f=b';
+  const body = 'abiokytke=a4&act_time=1681557411140&authtoken=P6WQLI4aOvxZpXmEQ6%2Bu9EETbzroVPOG&bd24y6421f=a3&bd4uy742=2&bgd7h8tyu54=bc&bgiuytkw=a0&bioduytlw=3&bvytikwqjk=bc&fjlkatj=263&ghtoiutkmlg=30e&h13ey474=887&h67456y=bf3&hy5641d321t=32&ibvytiqjek=a8&iogojti=3&is_app=1&jnhf8u5231=a0&kf54ge7=7&lksytkjh=f368&n3bf4uj7y7=3&nbf4uj7y432=a4&nd354uy4752=8&ngd4uy551=f3&ngd4yut78=0e&nkjhrew=2&quikgdky=d7&sbnoywr=1a&tbvdiuytk=b&text_id=297026&tiklsktr4=4&tirgkjfs=c4&type=app_ios&u54rg5d=26&version=2.3.6&y654b5fs3tr=3&yi854tew=88&yt447e13f=3';
   req.write(body);
 
   req.end();
