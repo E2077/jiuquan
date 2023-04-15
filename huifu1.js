@@ -15,13 +15,13 @@ const https = require('https');
 const url = `https://api.jiucaishuo.com/v2/image/comments`;
 const method = `POST`;
 const headers = {
-    'Accept': `*/*`,
-    'Accept-Encoding': `gzip;q=1.0, compress;q=0.5`,
-    'Connection': `keep-alive`,
-    'Content-Type': `application/x-www-form-urlencoded; charset=utf-8`,
-    'Host': `api.jiucaishuo.com`,
-    'User-Agent': `JiuQuan/229 (jiuquaner.app.chen; build:229; iOS 12.5.5) Alamofire/229`,
-    'Accept-Language': `zh-Hans-CN;q=1.0, en-CN;q=0.9, zh-Hant-HK;q=0.8, zh-Hant-CN;q=0.7`
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip;q=1.0, compress;q=0.5',
+    'Connection': 'keep-alive',
+    'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
+    'Host': 'api.jiucaishuo.com',
+    'User-Agent': 'JiuQuan/227 (jiuquaner.app.chen; build:227; iOS 16.2.0) Alamofire/227',
+    'Accept-Language': 'zh-Hans-CN;q=1.0'
 };
 
 function sendRequest() {
